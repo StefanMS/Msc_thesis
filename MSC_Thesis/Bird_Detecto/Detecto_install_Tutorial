@@ -1,0 +1,8 @@
+pip install detecto
+pip install matplotlib mock opencv-python pandas pytest sphinx torch torchvision
+
+to skip dependencies:
+pip install --no-deps
+
+if openCV fails to be installed by pip:
+apt-get install python-opencv
